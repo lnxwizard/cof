@@ -8,3 +8,5 @@ I decided to do this as there is no cat command in Windows operating systems.
 ```
 cat fileName
 ```
+
+![Usage of cat](https://github.com/AlperAkca79/cat/assets/91411319/db2a87c3-3edf-4794-8c8a-893ce43bfe0b)
