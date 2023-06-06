@@ -10,7 +10,7 @@ import (
 	"github.com/fatih/color"
 )
 
-func COF(filename string) {
+func ViewContent(filename string) {
 	// Open the file specified by the argument
 	file, err := os.Open(filename)
 	if err != nil {
@@ -22,16 +22,17 @@ func COF(filename string) {
 	completeMessage := file.Name() + ":\n"
 
 	// marking filename
-	emphasized := marker.Mark(completeMessage, marker.MatchAll(file.Name()), color.New(color.FgGreen))
+	emphasizedFilename := marker.Mark(completeMessage, marker.MatchAll(file.Name()), color.New(color.FgGreen))
 
 	// Use a scanner to read the file line by line
 	scanner := bufio.NewScanner(file)
 
 	// Printing colorful filename
-	fmt.Println(emphasized)
+	fmt.Print(emphasizedFilename)
+	fmt.Println("-------------------------------------------------------------")
 
 	for scanner.Scan() {
-		fmt.Println(scanner.Text())
+		fmt.Print("# | ", scanner.Text(), "\n")
 	}
 	if err := scanner.Err(); err != nil {
 		log.Fatal(err)

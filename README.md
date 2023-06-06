@@ -1,12 +1,30 @@
-# What is cat?
-cat is a command used to display file contents in terminal in UNIX/Linux operating systems (for Windows). 
+# cof
+![cof usage](https://github.com/AlperAkca79/cof/assets/91411319/9bd9fa42-4848-4b9d-9697-5e8c0700a595)
 
-# Why?
-I decided to do this as there is no cat command in Windows operating systems.
+# What is cof?
+View the contents of your file in your terminal with `cof`.
 
 # How to Use?
 ```
-cat fileName
+cof fileName
 ```
 
-![Usage of cat](https://github.com/AlperAkca79/cat/assets/91411319/db2a87c3-3edf-4794-8c8a-893ce43bfe0b)
+### Example
+```
+$ cof VERSION
+
+VERSION:
+---------------------------
+# | cof_2.0.0
+```
+
+# How to Download?
+### Via [Git](https://git-scm.com)
+```
+git clone https://github.com/AlperAkca79/cof.git
+```
+
+### Via [GitHub CLI](https://github.com/cli/cli)
+```
+gh repo clone AlperAkca79/cof
+```
