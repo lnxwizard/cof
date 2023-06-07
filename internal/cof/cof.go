@@ -18,7 +18,7 @@ func ViewContent(filename string) {
 	}
 	defer file.Close()
 
-	// complete message
+	// filename
 	completeMessage := file.Name() + ":\n"
 
 	// marking filename

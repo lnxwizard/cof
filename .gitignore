@@ -10,3 +10,9 @@
 
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
+
+# Visual Studio Code folder
+*.vscode
+
+# JetBrains IDE's (GoLand / IntelliJ IDEA) folder
+*.idea
