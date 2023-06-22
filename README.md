@@ -25,16 +25,16 @@ VERSION:
 
 # How to Download?
 ### Via [GitHub](https://github.com)
-Click [here](https://github.com/AlperAkca79/cof/releases) and download `.zip` file.
+Click [here](https://github.com/lnxwizard/cof/releases) and download `.zip` file.
 
 ### Via [Git](https://git-scm.com)
 ```shell
-git clone https://github.com/AlperAkca79/cof.git
+git clone https://github.com/lnxwizard/cof.git
 ```
 
 ### Via [GitHub CLI](https://github.com/cli/cli)
 ```shell
-gh repo clone AlperAkca79/cof
+gh repo clone lnxwizard/cof
 ```
 
 # License
